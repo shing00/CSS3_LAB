@@ -1,0 +1,27 @@
+body{
+	overflow:hidden;
+}
+.square{
+	width:30px;
+	height: 30px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	background-color: red;
+}
+
+.square {
+  -webkit-animation: anim1 1.2s infinite;
+}
+
+@-webkit-keyframes anim1 {
+	0%,10%   { -webkit-transform:rotate(0);
+       -webkit-animation-timing-function:linear;}
+    5% { -webkit-transform:rotate(10deg); }
+}
+
+.message{
+	position:absolute;
+	top:55%;
+	left:44%;
+}
